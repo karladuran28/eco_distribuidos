@@ -1,0 +1,71 @@
+.tarjeta_lugares{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.tarjeta_lugar{
+    
+    margin: 3%;
+    position: relative;
+    width: 30%;
+    margin: 0.8rem;
+
+}
+
+.nombre_ruta{
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(8, 8, 8, 0.507);
+    width: 100%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.foto_lugar {
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    transition: transform .2s;
+}
+
+.foto_lugar:hover {
+    transform: scale(1.02);
+}
+
+.nro_likes{
+    color: #fff
+}
+
+.title_publicacion{
+    color: white;
+    width: 90%;
+}
+
+.likes_box{
+    position: absolute;
+    bottom: 0px;
+    font-size: 10px;
+    right: 10px;
+}
+
+.mensaje_vacio{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 45px;
+    color: #afafaf;
+}
+
+@media only screen  and (max-width: 950px ){
+    .tarjeta_lugar {
+        width: 45%;
+    }
+}
+
+@media only screen  and (max-width: 700px ){
+    .tarjeta_lugar {
+        width: 80%;
+    }
+}

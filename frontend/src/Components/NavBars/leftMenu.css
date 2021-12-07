@@ -1,0 +1,41 @@
+.toggleMenu {
+    left: 0;
+    top: 2.5rem !important;
+    border: none;
+    background-color: white;
+    position: fixed;
+    z-index: 99;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden; 
+    border-right: 1px solid #e6e6e6;
+  }
+
+
+.toggleContenido {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 10rem;
+} 
+  
+.toggleContenido > a {
+    height: 50px;
+    text-decoration: none;
+    align-items: center;
+    transition: transform .2s;
+    color: blue;
+    margin-bottom: 5%;
+    padding-left: 15px;
+    display: flex;
+  } 
+  
+  
+  .toggleContenido > a:hover {
+    background-color: #f0f0f0;
+    color: #9a41ff;
+    text-decoration: none;
+    transform: scale(1.08) translate(10px);
+  }
+  
